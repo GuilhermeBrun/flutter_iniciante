@@ -5,4 +5,8 @@ void main() {
   test('IMC', () {
     expect(calculateImc(2.00, 112.21), 28.0525);
   });
+
+  test('Fibonacci', () {
+    expect(calculateFibonacci(6), 8);
+  });
 }
